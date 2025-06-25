@@ -1,0 +1,7 @@
+success
+success
+b//1 a//0
+success
+c//2 b//1 a//0
+success
+d//3 c//2 b//1 a//0

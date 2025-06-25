@@ -1,0 +1,6 @@
+INSERT x number
+BEGIN
+ASSIGN y 10
+INSERT z number
+END
+ASSIGN x 20

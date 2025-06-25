@@ -1,0 +1,3 @@
+INSERT x number
+ASSIGN y 10
+LOOKUP x

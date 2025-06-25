@@ -1,0 +1,4 @@
+INSERT validName number
+INSERT 1invalidName number
+ASSIGN validName 100
+LOOKUP validName

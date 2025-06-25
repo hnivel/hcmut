@@ -1,0 +1,19 @@
+INSERT a number
+ASSIGN a 1
+INSERT b string
+ASSIGN b 'global'
+BEGIN
+INSERT c number
+ASSIGN c 2
+INSERT a string
+ASSIGN a 'local'
+PRINT
+BEGIN
+INSERT d number
+ASSIGN d 3
+PRINT
+RPRINT
+END
+PRINT
+END
+PRINT

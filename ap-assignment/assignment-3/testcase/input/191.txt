@@ -1,0 +1,21 @@
+INSERT global number
+ASSIGN global 100
+BEGIN
+INSERT level1 string
+ASSIGN level1 'first'
+LOOKUP global
+BEGIN
+INSERT level2 number
+INSERT global string
+ASSIGN global 'shadowed'
+LOOKUP level1
+BEGIN
+LOOKUP global
+LOOKUP level2
+PRINT
+RPRINT
+END
+LOOKUP global
+END
+LOOKUP global
+END

@@ -1,0 +1,11 @@
+INSERT num number
+INSERT str string
+ASSIGN num 100
+ASSIGN str 'text'
+BEGIN
+INSERT localNum number
+INSERT localStr string
+ASSIGN localNum 200
+ASSIGN localStr 'local'
+ASSIGN localNum str
+END

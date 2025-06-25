@@ -1,0 +1,25 @@
+INSERT x number
+ASSIGN x 10
+INSERT y string
+ASSIGN y 'global'
+BEGIN
+INSERT x string
+INSERT z number
+ASSIGN x 'level1'
+ASSIGN z 100
+LOOKUP x
+LOOKUP y
+BEGIN
+INSERT x number
+INSERT y number
+ASSIGN x 999
+ASSIGN y 888
+LOOKUP x
+LOOKUP y
+LOOKUP z
+END
+LOOKUP x
+LOOKUP y
+END
+ASSIGN x 50
+LOOKUP x

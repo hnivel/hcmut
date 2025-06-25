@@ -1,0 +1,9 @@
+INSERT x number
+BEGIN
+INSERT y string
+INSERT x string
+BEGIN
+INSERT z number
+PRINT
+END
+END

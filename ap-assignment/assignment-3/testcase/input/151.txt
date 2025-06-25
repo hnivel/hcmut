@@ -1,0 +1,7 @@
+INSERT x number
+ASSIGN x 10
+BEGIN
+INSERT x string
+ASSIGN x 'hello'
+END
+ASSIGN x 20

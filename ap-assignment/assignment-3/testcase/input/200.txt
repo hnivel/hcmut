@@ -1,0 +1,30 @@
+INSERT counter number
+INSERT message string
+ASSIGN counter 0
+ASSIGN message 'start'
+BEGIN
+INSERT temp number
+ASSIGN temp 100
+ASSIGN counter 1
+PRINT
+BEGIN
+INSERT counter string
+ASSIGN counter 'shadowed'
+INSERT flag number
+ASSIGN flag 1
+LOOKUP message
+RPRINT
+BEGIN
+INSERT local number
+ASSIGN local 999
+LOOKUP counter
+LOOKUP temp
+LOOKUP flag
+PRINT
+END
+LOOKUP local
+END
+ASSIGN temp 200
+LOOKUP counter
+PRINT
+END

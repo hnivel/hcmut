@@ -496,7 +496,7 @@ const Checkout = () => {
                             frameBorder='0'
                             style={{ border: 0 }}
                             referrerPolicy='no-referrer-when-downgrade'
-                            src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=${encodeURIComponent(newAddress.details || 'Ho Chi Minh City, Vietnam')}&zoom=15`}
+                            src={`https://www.google.com/maps/embed/v1/place?key=<GOOGLE_API_KEY>&q=${encodeURIComponent(newAddress.details || 'Ho Chi Minh City, Vietnam')}&zoom=15`}
                             allowFullScreen
                             title='Google Maps Location Picker'
                           />

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "monorepo": true,
+  "root": "applications/orders-service",
+  "sourceRoot": "applications/orders-service/src",
+  "compilerOptions": {
+    "webpack": false,
+    "deleteOutDir": true,
+    "tsConfigPath": "tsconfig.build.json"
+  },
+  "projects": {
+    "orders-service": {
+      "type": "application",
+      "root": "applications/orders-service",
+      "entryFile": "main",
+      "sourceRoot": "applications/orders-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "applications/orders-service/tsconfig.app.json"
+      }
+    },
+    "kitchen-service": {
+      "type": "application",
+      "root": "applications/kitchen-service",
+      "entryFile": "main",
+      "sourceRoot": "applications/kitchen-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "applications/kitchen-service/tsconfig.app.json"
+      }
+    }
+  }
+}
